@@ -1,0 +1,23 @@
+.btn-primary {
+  background: #BF9000;
+  color: white;
+}
+
+nav {
+  background-color: #1C4587;
+  display: flex;
+  justify-content: space-between;
+}
+nav h2 {
+  color: white;
+}
+
+section {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+}
+section .hero {
+  width: 300px;
+  text-align: center;
+}

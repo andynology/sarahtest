@@ -1,0 +1,24 @@
+@import 'assets/styles/_variables';
+@import 'assets/styles/_buttons';
+
+.nav {
+    background-color: $primary-color;
+    display: flex;
+    justify-content: space-between;
+
+    &__title {
+        color: $text-color;
+    }
+}
+
+section {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    
+    .hero {
+        width: 300px;
+        text-align: center;
+    }
+
+}
